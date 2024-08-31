@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>primeira_tela</class>
+ <widget class="QMainWindow" name="primeira_tela">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1408</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema Primeira Tela</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imagens/diplomado.png</normaloff>imagens/diplomado.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(70, 105, 159);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>1341</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>60</y>
+       <width>911</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imagens/LOGO_UNIVERS.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>50</y>
+       <width>1121</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="botao_professor">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <pointsize>20</pointsize>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton:hover{
+	background-color: lightblue
+}
+QPushButton{
+border:3px solid black;
+border-radius: 25px;
+padding: 10px;
+}
+QPushButton{
+color: rgb(70, 105, 159);
+}</string>
+        </property>
+        <property name="text">
+         <string>ACESSO PROFESSOR</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../DESING/professor.png</normaloff>../DESING/professor.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="botao_acesso_aluno">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <pointsize>20</pointsize>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton:hover{
+	background-color: lightblue
+}
+QPushButton{
+border:3px solid black;
+border-radius: 25px;
+padding: 10px;
+}
+QPushButton{
+color: rgb(70, 105, 159);
+}</string>
+        </property>
+        <property name="text">
+         <string>ACESSO ALUNO</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../DESING/aluno.png</normaloff>../DESING/aluno.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="botao_acesso_adm">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <pointsize>20</pointsize>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton:hover{
+	background-color: lightblue
+}
+QPushButton{
+border:3px solid black;
+border-radius: 25px;
+padding: 10px;
+}
+QPushButton{
+color: rgb(70, 105, 159);
+}</string>
+        </property>
+        <property name="text">
+         <string>ACESSO ADM</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../DESING/financeiro.png</normaloff>../DESING/financeiro.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>607</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Confirma Cadastro</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imagens/diplomado.png</normaloff>imagens/diplomado.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">BACKGROUND-COLOR:rgb(255, 255, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-120</x>
+      <y>0</y>
+      <width>731</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(70, 105, 159);
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>                  CADASTRO PROFESSOR(A) ATUALIZADO!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>80</y>
+      <width>661</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/LOGO_UNIVERS.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_tela_principal">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>420</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>UpArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(70, 105, 159);
+}
+
+QPushButton{
+background-color: rgb(255, 255, 255)
+}
+
+QPushButton:hover{
+	background-color: lightblue
+}
+
+QPushButton{
+border:3px solid black;
+border-radius: 15px;
+padding: 2px;
+}</string>
+    </property>
+    <property name="text">
+     <string>VOLTAR TELA PRINCIPAL</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../DESING/9868474931649315515-128.png</normaloff>../DESING/9868474931649315515-128.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

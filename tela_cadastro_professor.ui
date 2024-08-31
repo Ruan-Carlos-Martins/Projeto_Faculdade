@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tela_cadastro_professor</class>
+ <widget class="QMainWindow" name="tela_cadastro_professor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1166</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string> Cadastro Professor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imagens/diplomado.png</normaloff>imagens/diplomado.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(70, 105, 159);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>1091</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>80</y>
+       <width>751</width>
+       <height>441</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>751</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bodoni MT</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>DADOS PESSOAIS</string>
+      </attribute>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>731</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_51">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>NOME:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_52">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>ENDEREÇO:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="QLabel" name="label_56">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>TELEFONE:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="2">
+         <widget class="QLabel" name="label_57">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>DATA NASCIMENTO:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_53">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>SEXO:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLabel" name="label_54">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>EMAIL:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLabel" name="label_55">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>LOGIN</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="4">
+         <widget class="QLineEdit" name="lineEditEndereco">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="4">
+         <widget class="QLineEdit" name="lineEditNome">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QComboBox" name="comboBoxSexo">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MASCULINO</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>FEMININO</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>OUTROS</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>NÃO QUERO DECLARAR</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="7" column="1" colspan="3">
+         <widget class="QLineEdit" name="lineEditEmail">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="0">
+         <widget class="QLineEdit" name="lineEditSenha">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="1">
+         <widget class="QLineEdit" name="lineEditCsenha">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLineEdit" name="lineEditLogin">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="2">
+         <widget class="QLineEdit" name="lineEditCpf">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1">
+         <widget class="QLineEdit" name="lineEditTelefone">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="2">
+         <widget class="QLineEdit" name="lineEditNascimento">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="1">
+         <widget class="QLabel" name="label_59">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>CONFIRME SENHA:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="0">
+         <widget class="QLabel" name="label_58">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>SENHA:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="2">
+         <widget class="QLabel" name="label_60">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>CPF:</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget">
+      <attribute name="title">
+       <string>INFORMAÇÕES CONTRATAÇÃO</string>
+      </attribute>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>671</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_46">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>DATA DE ADMISSÃO:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_49">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>CARGA HORÁRIA DE AULAS SEMANAIS:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="lineEditAdmissao">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="lineEditCargaHoraria">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_48">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>SALÁRIO:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_47">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>DISCIPLINA MINISTRADA:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLineEdit" name="lineEditSalario">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QComboBox" name="comboBoxDisciplina">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LINGUA PORTUGUESA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MATEMÁTICA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BIOLOGIA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>FÍSICA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>QUÍMICA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HISTÓRIA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GEOGRAFIA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SOCIOLOGIA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>FILOSOFIA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>EDUCAÇAO FÍSICA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ENSINO DAS ARTES</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_50">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>TURNO:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QComboBox" name="comboBox_turno">
+          <property name="font">
+           <font>
+            <family>Bodoni MT</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:12px;
+border-style:outset;
+border-width:2px;
+border-color:rgb(70, 105, 159);
+color:rgb(70, 105, 159)
+;
+LineEdit {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}</string>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MANHÃ</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TARDE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>NOITE</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>20</y>
+       <width>411</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bodoni MT</family>
+       <pointsize>25</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">COLOR:rgb(70, 105, 159)</string>
+     </property>
+     <property name="text">
+      <string>CADASTRO PROFESSOR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>520</y>
+       <width>411</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bodoni MT</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">BACKGROUND-COLOR:rgb(255, 255, 255);
+COLOR:rgb(70, 105, 159)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>241</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imagens/LOGO_UNIVERS.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>211</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="botao_cadastrar_professor">
+        <property name="font">
+         <font>
+          <family>Bodoni MT</family>
+          <pointsize>15</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>UpArrowCursor</cursorShape>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color: rgb(70, 105, 159);
+}
+
+QPushButton{
+background-color: rgb(255, 255, 255)
+}
+
+QPushButton:hover{
+	background-color: lightblue
+}
+
+QPushButton{
+border:2px solid black;
+border-radius: 15px;
+padding: 3px;
+}</string>
+        </property>
+        <property name="text">
+         <string>CADASTRAR</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>imagens/19224431551684926350-32.png</normaloff>imagens/19224431551684926350-32.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="botao_voltar">
+        <property name="font">
+         <font>
+          <family>Bodoni MT</family>
+          <pointsize>15</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>UpArrowCursor</cursorShape>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color: rgb(70, 105, 159);
+}
+
+QPushButton{
+background-color: rgb(255, 255, 255)
+}
+
+QPushButton:hover{
+	background-color: lightblue
+}
+
+QPushButton{
+border:2px solid black;
+border-radius: 15px;
+padding: 3px;
+}</string>
+        </property>
+        <property name="text">
+         <string>VOLTAR</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>imagens/9868474931649315515-128.png</normaloff>imagens/9868474931649315515-128.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
